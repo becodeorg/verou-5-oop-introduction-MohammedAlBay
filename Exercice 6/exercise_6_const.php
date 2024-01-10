@@ -17,11 +17,18 @@ TODO: Make sure that every print is on a new line.
 Use typehinting everywhere!
 */
 
-// Make a global const called GLOBAL_BARNAME with value "Het Vervolg"
-const GLOBAL_BARNAME = "Het Vervolg";
+// Make a global const called BARNAME with value "Het Vervolg"
+const BARNAME = "Het Vervolg";
 
 include_once "Beverage.php";
 include_once "Beer.php";
 
+// Create an instance of the Beer class to be able to call upon its methods
+$Duvel = new Beer("blond", 3.5, "Duvel", 8.5);
+
 // Print the constant
-echo GLOBAL_BARNAME;
+echo BARNAME . "<br>";
+// Print function from Beverage class
+echo $Duvel->get_globalConstant() . "<br>";
+// Print function from Beer class
+echo $Duvel->get_globalConstantFromBeer();
