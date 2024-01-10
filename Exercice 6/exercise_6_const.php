@@ -16,3 +16,6 @@ TODO: Make sure that every print is on a new line.
 
 Use typehinting everywhere!
 */
+
+include_once "Beverage.php";
+include_once "Beer.php";
