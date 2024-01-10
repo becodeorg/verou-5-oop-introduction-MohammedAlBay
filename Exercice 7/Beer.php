@@ -31,4 +31,10 @@ class Beer extends Beverage
   {
     return BARNAME;
   }
+
+  // Make function to access protected static $address property from parent class
+  public static function get_AddressFromChildClass()
+  {
+    return static::$address;
+  }
 }
