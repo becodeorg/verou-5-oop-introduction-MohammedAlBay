@@ -29,6 +29,6 @@ class Beer extends Beverage
   // Make a function to get the constant
   public function get_globalConstant()
   {
-    return GLOBAL_CONSTANT;
+    return GLOBAL_BARNAME;
   }
 }
