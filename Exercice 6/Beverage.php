@@ -26,6 +26,6 @@ class Beverage
   // Make function to get the global constant
   public function get_globalConstant()
   {
-    return GLOBAL_BARNAME;
+    return BARNAME;
   }
 }
