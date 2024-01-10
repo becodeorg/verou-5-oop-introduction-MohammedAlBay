@@ -16,4 +16,7 @@ include_once "Beverage.php";
 $cola = new Beverage("black", 2);
 echo $cola->getInfo();
 echo "<br>";
-echo $cola->temperature;
+// echo $cola->temperature; // I cannot find a solution to fix and print the temperature without using a getter function??
+echo "<br>";
+$cola->set_Price(3.50);
+echo "New cola price is &euro;" . $cola->get_Price() . ".";
