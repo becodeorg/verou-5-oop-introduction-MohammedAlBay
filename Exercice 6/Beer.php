@@ -8,8 +8,8 @@ include_once "Beverage.php";
 class Beer extends Beverage
 {
   // Properties
-  public string $name;
-  public float $alcoholPercentage;
+  private string $name;
+  private float $alcoholPercentage;
 
   // Construct function
   public function __construct(string $color, float $price, string $name, float $alcoholPercentage) 
