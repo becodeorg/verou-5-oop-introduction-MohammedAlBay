@@ -5,9 +5,9 @@ declare(strict_types=1);
 class Beverage
 {
   // Properties
-  public string $color;
-  public float $price;
-  public string $temperature;
+  private string $color;
+  private float $price;
+  private string $temperature;
 
   // Construct
   public function __construct(string $color, float $price)
