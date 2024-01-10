@@ -22,4 +22,9 @@ class Beverage
   {
     return "This beverage is $this->temperature, has a $this->color color and costs &euro;$this->price.";
   }
+
+  public function get_globalConstant()
+  {
+    return GLOBAL_CONSTANT;
+  }
 }
