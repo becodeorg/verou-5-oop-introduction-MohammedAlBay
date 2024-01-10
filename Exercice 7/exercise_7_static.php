@@ -26,4 +26,7 @@ echo BARNAME . "<br>";
 // Print function from Beverage class
 echo $Duvel->get_globalConstant() . "<br>";
 // Print function from Beer class
-echo $Duvel->get_globalConstantFromBeer();
+echo $Duvel->get_globalConstantFromBeer() . "<br>";
+// Print protected static $address without creating an instance of Beverage class and in two different ways
+echo Beer::get_AddressFromChildClass() . "<br>";
+echo $Duvel->get_AddressFromChildClass();
