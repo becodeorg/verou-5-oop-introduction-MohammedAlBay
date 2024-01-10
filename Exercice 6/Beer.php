@@ -25,4 +25,10 @@ class Beer extends Beverage
   {
     return $this->alcoholPercentage;
   }
+
+  // Make a function to get the constant
+  public function get_globalConstant()
+  {
+    return GLOBAL_CONSTANT;
+  }
 }
