@@ -22,4 +22,16 @@ class Beverage
   {
     return "This beverage is $this->temperature, has a $this->color color and costs &euro;$this->price.";
   }
+
+  // Make function to set a new price
+  public function set_Price(float $price)
+  {
+    $this->price = $price;
+  }
+
+  // Make a getter method to get the actual price
+  public function get_Price(): float
+  {
+    return $this->price;
+  }
 }
