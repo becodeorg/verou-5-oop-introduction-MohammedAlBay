@@ -1,5 +1,5 @@
-# LINK to my personal repository with all my previous commits: 
-  - [Personal repo](https://github.com/MohammedAlBay/04.OOP-introduction.git)
+# LINK to my personal repository for this exercice: 
+  - [Personal repo to see all my previous commits](https://github.com/MohammedAlBay/04.OOP-introduction.git)
 
 # OOP introduction
 
