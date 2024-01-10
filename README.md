@@ -1,3 +1,6 @@
+# LINK to my personal repository with all my previous commits: 
+  - [Personal repo](https://github.com/MohammedAlBay/04.OOP-introduction.git)
+
 # OOP introduction
 
 - Repository: `oop-introduction`
