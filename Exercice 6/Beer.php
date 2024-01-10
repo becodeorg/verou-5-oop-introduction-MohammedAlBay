@@ -26,9 +26,9 @@ class Beer extends Beverage
     return $this->alcoholPercentage;
   }
 
-  // Make a function to get the constant
-  public function get_globalConstant()
+  // Make a function to get the global constant
+  public function get_globalConstantFromBeer()
   {
-    return GLOBAL_BARNAME;
+    return BARNAME;
   }
 }
