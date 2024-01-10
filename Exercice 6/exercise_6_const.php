@@ -17,5 +17,10 @@ TODO: Make sure that every print is on a new line.
 Use typehinting everywhere!
 */
 
+// Make a global const BAR_NAME with value "Het Vervolg"
+const GLOBAL_BARNAME = "Het Vervolg";
+
 include_once "Beverage.php";
 include_once "Beer.php";
+
+echo GLOBAL_BARNAME;
